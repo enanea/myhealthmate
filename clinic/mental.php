@@ -327,82 +327,147 @@ a.kembali:hover {
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" required><br>
 
-        <h3>Answer the following questions:</h3>
+        <h3>Sila jawab semua soalan berikut dengan JUJUR : </h3>
         <!-- Questions start -->
-        <label>1. Do you often feel anxious or stressed?</label><br>
-        <input type="radio" name="question1" value="1" required> Rarely<br>
-        <input type="radio" name="question1" value="2"> Sometimes<br>
-        <input type="radio" name="question1" value="3"> Always<br>
+        <label>1. Saya sering berasa risau jika rakan-rakan tidak suka saya.</label><br>
+        <input type="radio" name="question1" value="1" required>Selalu<br>
+        <input type="radio" name="question1" value="2">Kerap<br>
+        <input type="radio" name="question1" value="3">Kadang-kadang<br>
+        <input type="radio" name="question1" value="4">Jarang<br>
+        <input type="radio" name="question1" value="5">Tidak Pernah<br>
 
-        <label>2. Do you have trouble sleeping?</label><br>
-        <input type="radio" name="question2" value="1" required> Rarely<br>
-        <input type="radio" name="question2" value="2"> Sometimes<br>
-        <input type="radio" name="question2" value="3"> Always<br>
+        <label>2. Saya rasa gugup atau takut untuk bercakap dalam kumpulan rakan.</label><br>
+        <input type="radio" name="question2" value="1" required>Selalu<br>
+        <input type="radio" name="question2" value="2">Kerap<br>
+        <input type="radio" name="question2" value="3">Kadang-kadang<br>
+        <input type="radio" name="question2" value="4">Jarang<br>
+        <input type="radio" name="question2" value="5">Tidak Pernah<br>
 
-        <label>3. Do you feel low energy throughout the day?</label><br>
-        <input type="radio" name="question3" value="1" required> Rarely<br>
-        <input type="radio" name="question3" value="2"> Sometimes<br>
-        <input type="radio" name="question3" value="3"> Always<br>
+        <label>3. Saya berasa tertekan apabila melihat rakan-rakan lebih berjaya atau disukai.</label><br>
+        <input type="radio" name="question3" value="1" required>Selalu<br>
+        <input type="radio" name="question3" value="2">Kerap<br>
+        <input type="radio" name="question3" value="3">Kadang-kadang<br>
+        <input type="radio" name="question3" value="4">Jarang<br>
+        <input type="radio" name="question3" value="5">Tidak Pernah<br>
 
-        <label>4. Do you find it hard to focus?</label><br>
-        <input type="radio" name="question4" value="1" required> Rarely<br>
-        <input type="radio" name="question4" value="2"> Sometimes<br>
-        <input type="radio" name="question4" value="3"> Always<br>
+        <label>4. Saya selalu berpura-pura gembira di depan rakan.</label><br>
+        <input type="radio" name="question4" value="1" required>Selalu<br>
+        <input type="radio" name="question4" value="2">Kerap<br>
+        <input type="radio" name="question4" value="3">Kadang-kadang<br>
+        <input type="radio" name="question4" value="4">Jarang<br>
+        <input type="radio" name="question4" value="5">Tidak Pernah<br>
 
-        <label>5. Do you feel lonely?</label><br>
-        <input type="radio" name="question5" value="1" required> Rarely<br>
-        <input type="radio" name="question5" value="2"> Sometimes<br>
-        <input type="radio" name="question5" value="3"> Always<br>
+        <label>5. Saya rasa tidak layak untuk menjadi sebahagian daripada kumpulan rakan saya.</label><br>
+        <input type="radio" name="question5" value="1" required>Selalu<br>
+        <input type="radio" name="question5" value="2">Kerap<br>
+        <input type="radio" name="question5" value="3">Kadang-kadang<br>
+        <input type="radio" name="question5" value="4">Jarang<br>
+        <input type="radio" name="question5" value="5">Tidak Pernah<br>
 
-        <label>6. Do you feel hopeless about life?</label><br>
-        <input type="radio" name="question6" value="1" required> Rarely<br>
-        <input type="radio" name="question6" value="2"> Sometimes<br>
-        <input type="radio" name="question6" value="3"> Always<br>
+        <label>6. Saya merasa cemas setiap kali perlu bercakap dengan guru.</label><br>
+        <input type="radio" name="question6" value="1" required>Selalu<br>
+        <input type="radio" name="question6" value="2">Kerap<br>
+        <input type="radio" name="question6" value="3">Kadang-kadang<br>
+        <input type="radio" name="question6" value="4">Jarang<br>
+        <input type="radio" name="question6" value="5">Tidak Pernah<br>
 
-        <label>7. Do you lose interest in daily activities?</label><br>
-        <input type="radio" name="question7" value="1" required> Rarely<br>
-        <input type="radio" name="question7" value="2"> Sometimes<br>
-        <input type="radio" name="question7" value="3"> Always<br>
+        <label>7. Saya rasa murung apabila usaha saya tidak dihargai oleh guru.</label><br>
+        <input type="radio" name="question7" value="1" required>Selalu<br>
+        <input type="radio" name="question7" value="2">Kerap<br>
+        <input type="radio" name="question7" value="3">Kadang-kadang<br>
+        <input type="radio" name="question7" value="4">Jarang<br>
+        <input type="radio" name="question7" value="5">Tidak Pernah<br>
 
-        <label>8. Do you often feel angry or restless?</label><br>
-        <input type="radio" name="question8" value="1" required> Rarely<br>
-        <input type="radio" name="question8" value="2"> Sometimes<br>
-        <input type="radio" name="question8" value="3"> Always<br>
+        <label>8. Saya berasa penat dengan beban tugasan yang diberi guru.</label><br>
+        <input type="radio" name="question8" value="1" required>Selalu<br>
+        <input type="radio" name="question8" value="2">Kerap<br>
+        <input type="radio" name="question8" value="3">Kadang-kadang<br>
+        <input type="radio" name="question8" value="4">Jarang<br>
+        <input type="radio" name="question8" value="5">Tidak Pernah<br>
 
-        <label>9. Do you have problems with friends or family?</label><br>
-        <input type="radio" name="question9" value="1" required> Rarely<br>
-        <input type="radio" name="question9" value="2"> Sometimes<br>
-        <input type="radio" name="question9" value="3"> Always<br>
+        <label>9. Saya rasa guru lebih memberi perhatian kepada pelajar lain berbanding saya.</label><br>
+        <input type="radio" name="question9" value="1" required>Selalu<br>
+        <input type="radio" name="question9" value="2">Kerap<br>
+        <input type="radio" name="question9" value="3">Kadang-kadang<br>
+        <input type="radio" name="question9" value="4">Jarang<br>
+        <input type="radio" name="question9" value="5">Tidak Pernah<br>
 
-        <label>10. Do you experience stress at school or work?</label><br>
-        <input type="radio" name="question10" value="1" required> Rarely<br>
-        <input type="radio" name="question10" value="2"> Sometimes<br>
-        <input type="radio" name="question10" value="3"> Always<br>
+        <label>10. Saya tidak mempercayai untuk meluah pada mana mana guru.</label><br>
+        <input type="radio" name="question10" value="1" required>Selalu<br>
+        <input type="radio" name="question10" value="2">Kerap<br>
+        <input type="radio" name="question10" value="3">Kadang-kadang<br>
+        <input type="radio" name="question10" value="4">Jarang<br>
+        <input type="radio" name="question10" value="5">Tidak Pernah<br>
 
-        <label>11. Do you feel unappreciated?</label><br>
-        <input type="radio" name="question11" value="1" required> Rarely<br>
-        <input type="radio" name="question11" value="2"> Sometimes<br>
-        <input type="radio" name="question11" value="3"> Always<br>
+        <label>11. Saya sering merasa risau tentang perkara kecil yang orang lain tidak kisahkan.</label><br>
+        <input type="radio" name="question11" value="1" required>Selalu<br>
+        <input type="radio" name="question11" value="2">Kerap<br>
+        <input type="radio" name="question11" value="3">Kadang-kadang<br>
+        <input type="radio" name="question11" value="4">Jarang<br>
+        <input type="radio" name="question11" value="5">Tidak Pernah<br>
 
-        <label>12. Do you often cry without a reason?</label><br>
-        <input type="radio" name="question12" value="1" required> Rarely<br>
-        <input type="radio" name="question12" value="2"> Sometimes<br>
-        <input type="radio" name="question12" value="3"> Always<br>
+        <label>12. Saya rasa tidak selesa berinteraksi walaupun dengan orang yang saya kenal.</label><br>
+        <input type="radio" name="question12" value="1" required>Selalu<br>
+        <input type="radio" name="question12" value="2">Kerap<br>
+        <input type="radio" name="question12" value="3">Kadang-kadang<br>
+        <input type="radio" name="question12" value="4">Jarang<br>
+        <input type="radio" name="question12" value="5">Tidak Pernah<br>
 
-        <label>13. Do you experience significant changes in your appetite?</label><br>
-        <input type="radio" name="question13" value="1" required> Rarely<br>
-        <input type="radio" name="question13" value="2"> Sometimes<br>
-        <input type="radio" name="question13" value="3"> Always<br>
+        <label>13. Saya sering merasa murung tanpa sebab yang jelas.</label><br>
+        <input type="radio" name="question13" value="1" required>Selalu<br>
+        <input type="radio" name="question13" value="2">Kerap<br>
+        <input type="radio" name="question13" value="3">Kadang-kadang<br>
+        <input type="radio" name="question13" value="4">Jarang<br>
+        <input type="radio" name="question13" value="5">Tidak Pernah<br>
 
-        <label>14. Do you often feel scared without any clear reason?</label><br>
-        <input type="radio" name="question14" value="1" required> Rarely<br>
-        <input type="radio" name="question14" value="2"> Sometimes<br>
-        <input type="radio" name="question14" value="3"> Always<br>
+        <label>14. Saya sering berasa sangat penat walaupun tidak melakukan banyak aktiviti.</label><br>
+        <input type="radio" name="question14" value="1" required>Selalu<br>
+        <input type="radio" name="question14" value="2">Kerap<br>
+        <input type="radio" name="question14" value="3">Kadang-kadang<br>
+        <input type="radio" name="question14" value="4">Jarang<br>
+        <input type="radio" name="question14" value="5">Tidak Pernah<br>
 
-        <label>15. Have you ever felt like ending your life?</label><br>
-        <input type="radio" name="question15" value="1" required> Never<br>
-        <input type="radio" name="question15" value="2"> Sometimes<br>
-        <input type="radio" name="question15" value="3"> Always<br>
+        <label>15. Saya rasa diri saya tidak cukup baik berbanding orang lain.</label><br>
+        <input type="radio" name="question15" value="1" required>Selalu<br>
+        <input type="radio" name="question15" value="2">Kerap<br>
+        <input type="radio" name="question15" value="3">Kadang-kadang<br>
+        <input type="radio" name="question15" value="4">Jarang<br>
+        <input type="radio" name="question15" value="5">Tidak Pernah<br>
+
+        <label>16. Saya berasa takut untuk berkongsi perasaan saya dengan keluarga.</label><br>
+        <input type="radio" name="question16" value="1" required>Selalu<br>
+        <input type="radio" name="question16" value="2">Kerap<br>
+        <input type="radio" name="question16" value="3">Kadang-kadang<br>
+        <input type="radio" name="question16" value="4">Jarang<br>
+        <input type="radio" name="question16" value="5">Tidak Pernah<br>
+
+        <label>17. Saya sering merasa tidak difahami oleh ahli keluarga saya.</label><br>
+        <input type="radio" name="question17" value="1" required>Selalu<br>
+        <input type="radio" name="question17" value="2">Kerap<br>
+        <input type="radio" name="question17" value="3">Kadang-kadang<br>
+        <input type="radio" name="question17" value="4">Jarang<br>
+        <input type="radio" name="question17" value="5">Tidak Pernah<br>
+
+        <label>18. Saya merasa tertekan apabila berada di rumah dan tidak mempunyai ketenangan.</label><br>
+        <input type="radio" name="question18" value="1" required>Selalu<br>
+        <input type="radio" name="question18" value="2">Kerap<br>
+        <input type="radio" name="question18" value="3">Kadang-kadang<br>
+        <input type="radio" name="question18" value="4">Jarang<br>
+        <input type="radio" name="question18" value="5">Tidak Pernah<br>
+
+        <label>19. Saya cepat letih bila bersama keluarga kerana banyak beban emosi.</label><br>
+        <input type="radio" name="question19" value="1" required>Selalu<br>
+        <input type="radio" name="question19" value="2">Kerap<br>
+        <input type="radio" name="question19" value="3">Kadang-kadang<br>
+        <input type="radio" name="question19" value="4">Jarang<br>
+        <input type="radio" name="question19" value="5">Tidak Pernah<br>
+
+        <label>20. Saya rasa tidak cukup baik di mata keluarga saya.</label><br>
+        <input type="radio" name="question20" value="1" required>Selalu<br>
+        <input type="radio" name="question20" value="2">Kerap<br>
+        <input type="radio" name="question20" value="3">Kadang-kadang<br>
+        <input type="radio" name="question20" value="4">Jarang<br>
+        <input type="radio" name="question20" value="5">Tidak Pernah<br>
         <!-- Questions end -->
 
         <button type="submit">Submit</button>
